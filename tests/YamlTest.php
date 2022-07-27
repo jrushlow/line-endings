@@ -55,12 +55,12 @@ EOT;
 
     private function getWindowsYaml(): string
     {
-        return <<< EOT
+        $yaml = <<< EOT
 security:
     firewalls:
         main:
             custom_authenticator: App\Security\SomeOtherAuthenticator
-\r\n
 EOT;
+        return $yaml.PHP_EOL;
     }
 }
