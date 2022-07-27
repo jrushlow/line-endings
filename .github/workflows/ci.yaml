@@ -39,7 +39,7 @@ jobs:
               uses: "ramsey/composer-install@v1"
 
             - name: "PHPUnit version"
-              run: vendor/bin/simple-phpunit --version
+              run: vendor/bin/phpunit --version
 
             - name: "PHP Info"
               run: php -i
