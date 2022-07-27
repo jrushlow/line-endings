@@ -1,0 +1,26 @@
+{
+    "name": "jrushlow/line-endings",
+    "description": "Nothing to see here",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jrushlow\\LineEndings\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jrushlow\\LineEndings\\Test": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesse Rushlow",
+            "email": "jr@rushlow.dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    }
+}
