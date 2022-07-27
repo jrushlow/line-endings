@@ -23,7 +23,7 @@ jobs:
 
         steps:
             - name: "List Git Config"
-              run: git config --global core.autoclrf input
+              run: git config --global core.autocrlf input
 
             - name: "Checkout code"
               uses: actions/checkout@v2.3.3
