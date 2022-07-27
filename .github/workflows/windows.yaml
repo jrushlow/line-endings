@@ -22,6 +22,12 @@ jobs:
                     - '8.1'
 
         steps:
+            - name: "List Git Config"
+              run: git config --global --list --show-origin
+
+            - name: "List Git Config system"
+              run: git config --system --list --show-origin
+
             - name: "Checkout code"
               uses: actions/checkout@v2.3.3
 
