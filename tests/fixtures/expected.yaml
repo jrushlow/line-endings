@@ -1,0 +1,4 @@
+security:
+    firewalls:
+        main:
+            custom_authenticator: App\Security\SomeOtherAuthenticator
